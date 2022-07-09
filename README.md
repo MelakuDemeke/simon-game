@@ -16,7 +16,7 @@ This is a simple frontend project which is built while learning full-stack web d
 
 ## In this project, I Build the simon game
 The Simon game is the exciting electronic game of lights and sounds in which players must repeat random sequences of lights by pressing the colored pads in the correct order. It's fast-paced play, with lights and sounds that can challenge you. Experience the fun as you repeat the patterns and advance to higher levels
-![game image](images/simon.jpg)
+<img src="images/simon.jpg" alt="simon game" width="500"/>
 
 ## A live link
 [click here to see the live web](https://melakudemeke.github.io/simon-game/)
