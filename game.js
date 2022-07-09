@@ -17,9 +17,17 @@ $(".btn").click(function (e) {
     userClickPattern.push(userChosenColour);
 
     playSound(userChosenColour);
+    animatePress(userChosenColour);
 });
 
 function playSound(name) {
     var audio = new Audio("sounds/"+name+".mp3");
     audio.play();
+}
+
+function animatePress(currentColur) {
+    $("#"+currentColur).addClass("pressed");
+    setTimeout(function(){
+        $("#"+currentColur).removeClass("pressed");
+    }, 100);
 }
